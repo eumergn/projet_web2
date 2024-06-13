@@ -1,0 +1,128 @@
+body {
+    background-color: rgb(0, 19, 49);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+#contact-title {
+    display: flex;
+    justify-content: center;
+    color: hsl(0, 0%, 100%);
+    font-size: 2vw;
+}
+
+#contact-title span {
+    color: #dd6700;
+    font-size: 2vw;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30vw;
+}
+
+form #result {
+    width: 100%;
+    text-align: right;
+    margin-top: -1vh;
+    color: #737373;
+}
+
+form input.error,
+form textarea.error,
+.exceeded {
+    border: 1px red;
+    background-color: rgba(255, 0, 0, 0.305);
+}
+
+form label.error {
+    color: red;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #b7b7b7;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+#form_container button {
+    width: 100%;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1vw;
+}
+
+#form_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#chargementForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+    font-size: 1vw;
+    background-color: #ffffff;
+    color: #34495e;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-shadow: 6px 6px 29px -4px rgba(0, 0, 0, 0.75);
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#chargementForm:hover {
+    background-color: #34495e;
+    color: #ffffff;
+}
+
+#affichageForm {
+    margin: 2vw;
+    color: #000000;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1vw;
+}
+
+.noMoreForm p {
+    color: red;
+    font-style: italic;
+    font-size: 1.5vw;
+}
+
+
+/*
+#echo_entrees_form p {
+    color: white;
+}
+*/
